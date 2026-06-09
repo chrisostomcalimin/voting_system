@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+.container{
+    width:400px;
+    margin:50px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px #ccc;
+}
+
+h2{
+    text-align:center;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin-top:15px;
+    cursor:pointer;
+}
+.stats{
+    margin-top:20px;
+}
+
+.progress-container{
+    width:100%;
+    background:#ddd;
+    height:30px;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress-bar{
+    height:100%;
+    width:0%;
+    background:green;
+    transition:0.5s;
+}
