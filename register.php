@@ -58,7 +58,8 @@ if(isset($_POST['register'])){
 
             if($insert->execute()){
 
-                $message = "Registration successful.";
+                header("Location: login.php");
+                exit();
 
             } else {
 
@@ -126,6 +127,10 @@ type="submit"
 name="register">
 Register
 </button>
+
+<p class="signin-link">
+    Already have an account? <a href="login.php">Sign in</a>
+</p>
 
 </form>
 
